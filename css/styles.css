@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #424242;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 30px auto 0px auto;
+    color: #499b99;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #499b99;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    margin: 20px 0px 20px auto;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border: dotted #cccccc 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+
+.top-container {
+    background-color: #d8f9ed;
+    position: relative;
+    padding-top: 170px;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 320px;
+    top: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.skills {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 130px auto 130px auto ;
+    text-align: left;
+}
+
+.skill-row p {
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.skill-row .programming-img {
+    width: 22%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row .chillies-img {
+    width: 22%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row h3 {
+    font-size: 1.3rem;
+}
+
+.profile {
+    width: 50%;
+    margin: 130px auto 130px auto ;
+}
+
+.profile img {
+    margin: 10px auto 20px auto;
+    width: 25%;
+    height: auto;
+}
+
+.profile h2 {
+    padding: 10px;
+}
+
+
+.contact-me {
+    margin: 50px auto 150px auto;
+}
+
+.contact-me p {
+    width: 40%;
+    margin: 40px auto 40px auto;
+}
+
+
+.contact-me a {
+    text-decoration: none;
+    color: white;
+    background-color: #11999E;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+.contact-me a:hover {
+    color: white;
+    background-color: #0d7376;
+}
+
+
+.bottom-container {
+    background-color: #0d7376;
+    width: 100%;
+    height: 200px;
+}
+
+.bottom-container .footer-link {
+    text-decoration: none;
+    color: #7fafae;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    font-size: 1.15rem;
+    transition: 0.3s;
+}
+
+.bottom-container .footer-link:hover {
+    color: white;
+}
+
+.bottom-container p {
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    font-size: 0.8rem;
+}
